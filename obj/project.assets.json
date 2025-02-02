@@ -442,11 +442,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\USER\\OneDrive\\Desktop\\Employee-Application\\TruStage\\TruStage.csproj",
+      "projectUniqueName": "C:\\Users\\USER\\OneDrive\\Desktop\\Feature-CA-160\\cis.CompailanceAPI\\TruStage.csproj",
       "projectName": "TruStage",
-      "projectPath": "C:\\Users\\USER\\OneDrive\\Desktop\\Employee-Application\\TruStage\\TruStage.csproj",
+      "projectPath": "C:\\Users\\USER\\OneDrive\\Desktop\\Feature-CA-160\\cis.CompailanceAPI\\TruStage.csproj",
       "packagesPath": "C:\\Users\\USER\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\USER\\OneDrive\\Desktop\\Employee-Application\\TruStage\\obj\\",
+      "outputPath": "C:\\Users\\USER\\OneDrive\\Desktop\\Feature-CA-160\\cis.CompailanceAPI\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\USER\\AppData\\Roaming\\NuGet\\NuGet.Config",
