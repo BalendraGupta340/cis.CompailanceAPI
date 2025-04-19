@@ -39,5 +39,12 @@ namespace EmployeePortal.Controllers
             await Emp.DeleteEmployee(id);
             return Ok();
         }
+
+        [HttpDelete("{id}")]
+        public async Task<ActionResult> TruDeleteEmp(int id)
+        {
+            await Emp.DeleteEmployee(id);
+            return Ok();
+        }
     }
 }
