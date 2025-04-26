@@ -47,5 +47,13 @@ namespace EmployeePortal.Repository
             Db.Employees.Remove(EmpDelete);
           await  Db.SaveChangesAsync() ;
         }
+        public async Task<IEnumerable<Employee>> GetActiveEmployeesAsync()
+        {
+            return await Db.Employees.Where(e => e.Status == true).ToListAsync();
+        }
+        public async Task<IEnumerable<Employee>> GetInActiveEmployeesAsync()
+        {
+            return await Db.Employees.Where(e => e.Status == false).ToListAsync();
+        }
     }
 }

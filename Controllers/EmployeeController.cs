@@ -39,5 +39,17 @@ namespace EmployeePortal.Controllers
             await Emp.DeleteEmployee(id);
             return Ok();
         }
+        [HttpGet("GetActiveEmployees")]
+        public async Task<IActionResult> GetActiveEmployees()
+        {
+            var employees = await Emp.GetActiveEmployeesAsync();
+            return Ok(employees);
+        }
+        [HttpGet("GetInActiveEmployees")]
+        public async Task<IActionResult> GetInActiveEmployees()
+        {
+            var employees = await Emp.GetInActiveEmployeesAsync();
+            return Ok(employees);
+        }
     }
 }
