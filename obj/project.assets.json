@@ -2444,11 +2444,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\USER\\OneDrive\\Desktop\\Anya-G\\Mylocal-github-webapi\\Feature-CA-660\\cis.CompailanceAPI\\EmployeePortal.csproj",
+      "projectUniqueName": "C:\\Users\\USER\\OneDrive\\Desktop\\Anya-G\\Mylocal-github-webapi\\Feature-issue-CA-17\\cis.CompailanceAPI\\EmployeePortal.csproj",
       "projectName": "EmployeePortal",
-      "projectPath": "C:\\Users\\USER\\OneDrive\\Desktop\\Anya-G\\Mylocal-github-webapi\\Feature-CA-660\\cis.CompailanceAPI\\EmployeePortal.csproj",
+      "projectPath": "C:\\Users\\USER\\OneDrive\\Desktop\\Anya-G\\Mylocal-github-webapi\\Feature-issue-CA-17\\cis.CompailanceAPI\\EmployeePortal.csproj",
       "packagesPath": "C:\\Users\\USER\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\USER\\OneDrive\\Desktop\\Anya-G\\Mylocal-github-webapi\\Feature-CA-660\\cis.CompailanceAPI\\obj\\",
+      "outputPath": "C:\\Users\\USER\\OneDrive\\Desktop\\Anya-G\\Mylocal-github-webapi\\Feature-issue-CA-17\\cis.CompailanceAPI\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\USER\\AppData\\Roaming\\NuGet\\NuGet.Config",

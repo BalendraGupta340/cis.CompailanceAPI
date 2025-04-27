@@ -55,5 +55,9 @@ namespace EmployeePortal.Repository
         {
             return await Db.Employees.Where(e => e.Status == false).ToListAsync();
         }
+        public async Task<IEnumerable<Employee>> GetInActiveEmployeesAsyncs()
+        {
+            return await Db.Employees.Where(e => e.Status == false).ToListAsync();
+        }
     }
 }
