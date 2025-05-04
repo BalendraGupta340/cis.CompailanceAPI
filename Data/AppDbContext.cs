@@ -11,5 +11,13 @@ namespace EmployeePortal.Data
                 
         }
         public DbSet<Employee>Employees { get; set; }
+        public DbSet<Salary> Salaries { get; set; }
+        protected override void OnModelCreating(ModelBuilder modelBuilder)
+        {
+            modelBuilder.Entity<Salary>()
+                .HasOne(s => s.Employee)
+                .WithMany(e => e.Salaries)
+                .HasForeignKey(s => s.EmployeeId);
+        }
     }
 }

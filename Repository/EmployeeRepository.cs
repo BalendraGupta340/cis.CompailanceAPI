@@ -32,7 +32,7 @@ namespace EmployeePortal.Repository
             EmpUpdate.Email=obj.Email;
             EmpUpdate.Mobile=obj.Mobile;
             EmpUpdate.Age = obj.Age;
-            EmpUpdate.Salary=obj.Salary;
+            EmpUpdate.CurrentSalaryAmount = obj.CurrentSalaryAmount;
             EmpUpdate.Status=obj.Status;
 
             await Db.SaveChangesAsync();
